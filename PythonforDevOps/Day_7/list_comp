@@ -1,0 +1,22 @@
+# list comprehension
+
+list_1 = []
+
+for i in range(1,10):
+    list_1.append(i)
+
+list_comp = [i for i in range(1,10)]
+print(list_comp)
+
+#dictonery comprehension
+
+"""
+{
+    1:1
+    2:4
+    3:9
+
+
+}
+"""
+
